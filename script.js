@@ -29,6 +29,7 @@ $(".zoe").click(function () {
   $(".ali").hide();
   $(".burhan").hide();
   $("#messages").hide();
+  $(".ndirangu").hide();
   $(".mail-card").hide();
   $(".duff").show();
 });
@@ -36,6 +37,7 @@ $(".zoe").click(function () {
 $(".burhan").hide();
 $(".yahya").click(function () {
   $(".ali").hide();
+  $(".mohamed").hide();
   $(".duff").hide();
   $("#messages").hide();
   $(".mail-card").hide();
@@ -77,6 +79,7 @@ $(".steve").click(function () {
   $(".john").hide();
   $(".mohamed").hide();
   $(".ali").hide();
+  $(".sadik").hide();
   $(".duff").hide();
   $(".burhan").hide();
   $("#messages").hide();
