@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  #messages {
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+  }
+  #search-bar {
+    width: 20rem;
+  }
+  #list {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #messages {
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+  }
+  #search-bar {
+    width: 20rem;
+  }
+  #list {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #messages {
+    position: relative;
+    top: 1rem;
+    width: 60rem;
+    margin-left: 23rem;
+    height: 39rem;
+  }
+  #search-bar {
+    width: 20rem;
+  }
+  #list {
+    width: 20rem;
+  }
+
+  #textspace {
+    width: 53rem;
+    height: 3rem;
+  }
+}

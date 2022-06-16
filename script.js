@@ -9,10 +9,10 @@ $("#search-bar").keyup(function () {
     }
   });
 });
-const str = $("textarea").keyup(function () {
-  let em = ($("p").innerHTML = str.length);
-  let count = str.length;
-  console.log(count);
+
+$("textarea").on("input", function () {
+  let number = $("textarea").val().length;
+  $("#count")[0].innerHTML = number + " " + `<em>Characters</em>`;
 });
 
 $(".mail-card").hide();
@@ -141,3 +141,32 @@ $(".kawati").click(function () {
   $(".mail-card").hide();
   $(".ndirangu").show();
 });
+
+// [
+//   {
+//     name: "John",
+//     messages: [
+//       {
+//         text: "Hi",
+//         timeSent: "20032",
+//       },
+//       {
+//         text: "Hi",
+//         timeSent: "20032",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Ali",
+//     messages: [
+//       {
+//         text: "Hello",
+//         timeSent: "20032",
+//       },
+//       {
+//         text: "Hi",
+//         timeSent: "20032",
+//       },
+//     ],
+//   },
+// ];
